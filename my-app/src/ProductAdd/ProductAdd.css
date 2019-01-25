@@ -1,0 +1,11 @@
+.control {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btn-add {
+    font-weight: 900;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    display: inline-block;
+}

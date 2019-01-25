@@ -1,0 +1,27 @@
+nav {
+    background-color:  #00cc99;
+    height: 5rem;
+}
+
+
+nav > li {
+    text-align: left;
+    list-style: none;
+    height: 5rem;
+    display: inline-block;
+}
+nav > li  > a {
+    color: white;
+    text-decoration: none;
+    line-height: 5rem;
+    padding: 1rem;
+    transition: background-color 0.2s ease-in;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+nav > li  > a:hover {
+    background: white;
+    color: #3a0041cc;
+}

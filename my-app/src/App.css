@@ -1,0 +1,17 @@
+.title {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 25px 55px;
+}
+
+.paddingLeft55 {
+  padding-left: 55px;
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background: url('Image/pexels-photo-210661.jpeg') fixed;
+  background-size: cover;
+}
+

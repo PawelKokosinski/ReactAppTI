@@ -1,0 +1,32 @@
+.product {
+    width: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.product-name {
+    width: 100px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 1.3rem;
+    padding: 5px 25px;
+    background-color: #ffffff57;
+    display: inline-block;
+}
+
+
+.product-count {
+    width: 50px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1.3rem;
+    background-color: #ffffff57;
+    padding: 5px 5px;
+}
+
+.product-count::after {
+    content: ' szt.';
+    font-size: 1rem;
+}
